@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1>Container And Spacing</h1>
+    <!-- 1.Mergin -->
+    <!-- You can provide for 
+ my - y axis
+ mx- y axis
+ left 
+ right 
+ up 
+ down 
+ etc -->
+    <span class="m-4 bg-yellow-300">Margin all Around</span>
+
+    <div class="bg-green-800 mx-5">Margin X axis</div>
+    <div class="bg-blue-800 my-5">Margin Y axis</div>
+    <div class="bg-indigo-200 mr-5">Margin Right</div>
+    <div class="bg-orange-800 ml-5">Margin left</div>
+    <div class="bg-gray-400 mb-5">Margin bottom</div>
+    <div class="bg-pink-800 mt-5">Margin Top</div>
+
+    <!-- // Providing Mergin Arbitrary value  -->
+
+    <div class="bg-green-800 m-[50px]">Margin All round</div>
+    <!-- 2.Padding -->
+    <!-- The space inside The container 
+       -->
+    <br />
+    <hr />
+
+    <h3>Padding</h3>
+    <h3 class="p-4 bg-green-400">Padding All Around</h3>
+    <h3 class="px-4 bg-blue-400">Padding X</h3>
+    <h3 class="py-4 bg-orange-400">Padding Y</h3>
+    <h3 class="pt-4 bg-lime-400">Padding Top</h3>
+    <h3 class="pr-4 bg-gray-300">Padding Right</h3>
+    <h3 class="pl-4 bg-violet-400">Padding Left</h3>
+    <h3 class="pb-4 bg-indigo-400">Padding Bottom</h3>
+    <br />
+    <hr />
+    <br />
+    <h3>Space Between X</h3>
+    <div class="flex space-x-4">
+      <div class="bg-teal-200 p-3">O1</div>
+      <div class="bg-teal-300 p-3">02</div>
+      <div class="bg-teal-400 p-3">03</div>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <h3>Space Between Y</h3>
+    <div class="flex-collumn space-y-4">
+      <div class="bg-teal-200 p-3">O1</div>
+      <div class="bg-teal-300 p-3">02</div>
+      <div class="bg-teal-400 p-3">03</div>
+    </div>
+  </body>
+</html>
